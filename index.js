@@ -2,7 +2,7 @@ var latt;
 var longg;
 
 function  do_something(lat,long){
-console.log("lat="+lat);
+console.log("lat no130="+lat);
 console.log("long="+long);
 
    latt = position.coords.latitude;
