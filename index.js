@@ -1,14 +1,20 @@
+var latt;
+var longg;
+
 function  do_something(lat,long){
 console.log("lat="+lat);
 console.log("long="+long);
 
+   latt = position.coords.latitude;
+  longg =  position.coords.longitude;
+  console.log("latt="+latt);
+  console.log("longg="+longg);
+  
 }
-var latt;
-var longg;
+
 navigator.geolocation.getCurrentPosition(function(position) {
   do_something(position.coords.latitude, position.coords.longitude);
-  latt = position.coords.latitude;
-  longg =  position.coords.longitude;
+ 
 });
 
 document.getElementById("demo").innerHTML = "Hello JavaScript!";
