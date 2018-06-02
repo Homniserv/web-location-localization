@@ -1,5 +1,6 @@
 function  do_something(lat,long){
 console.log("lat="+lat);
+console.log("long="+long);
 
 }
 
