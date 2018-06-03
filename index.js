@@ -2,11 +2,11 @@ var latt;
 var longg;
 
 function  do_something(lat,long){
-console.log("lat no131="+lat);
+console.log("lat no132="+lat);
 console.log("long="+long);
 
-   latt =lat;
-  longg =  long;
+ var  latt =lat;
+  var longg =  long;
   console.log("latt="+latt);
   console.log("longg="+longg);
   
